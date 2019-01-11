@@ -29,7 +29,7 @@ String place = JOptionPane.showInputDialog("place");
 		
 		// Make a pop-up for the final story. You can use \n to go to the next line
 String sentence = "Piranhas are more" + adjective+"during the day, so cross the river at night. Piranhas are attracted to fresh" +liquid+ "amd most likely take a bite out of" +bodypart+ "if you" +verb+ "Whatever you do, if you have an open wound, try to find another way to get back to the" +place+"Good luck!";
-
+JOptionPane.showMessageDialog(null, sentence);
 	}
 }
 
